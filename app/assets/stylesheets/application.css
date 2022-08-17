@@ -73,3 +73,48 @@ a {
   font-weight: 400;
   margin-right: 10px;
  }
+
+ .form {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+ }
+
+ .form-content {
+  margin: 20px;
+ }
+
+ .form-content input {
+  height: 70px;
+  width: 500px;
+  margin: 10px
+ }
+
+ .form-title {
+  margin: 20px;
+  margin-left: 42px;
+ }
+
+ .form-title input {
+  width: 500px;
+  margin: 10px
+ }
+
+ .form-submit {
+  width: 500px;
+  margin: 0 auto;
+ }
+
+ .buttons {
+  width: 500px;
+  margin: 30px auto;
+ }
+
+ .buttons button {
+  margin: 10px;
+ }
+
+ .new-article h1 {
+  width: 500px;
+  margin: 0px auto;
+ }
