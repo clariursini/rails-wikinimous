@@ -29,7 +29,7 @@ a {
 }
 
  .nav-bar {
-    background-color: #f8f8f8;
+    background-color: #e7e7e7;
     border-color: #e7e7e7;
     position: relative;
     min-height: 50px;
@@ -56,4 +56,20 @@ a {
   font-size: 30px;
   font-family: "Roboto Slab";
   font-weight: 400;
+ }
+
+ .article a:hover{
+  text-decoration: underline;
+ }
+
+ .article-head {
+  display: flex;
+ }
+
+ .article-head h1{
+  color: black;
+  font-size: 36px;
+  font-family: "Roboto Slab";
+  font-weight: 400;
+  margin-right: 10px;
  }
